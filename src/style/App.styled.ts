@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 210px;
+    margin: 0 11vw;
 `;
 
 export const Header = styled.header`
@@ -26,12 +26,13 @@ export const Info = styled.section`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 `;
 export const Process = styled.section`
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    overflow-x: hidden;
+    justify-content: space-between;
 `;
 export const Products = styled.section`
 
@@ -40,6 +41,7 @@ export const Statistics = styled.section`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 `;
 export const Clients = styled.section`
 

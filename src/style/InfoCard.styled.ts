@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
     padding: 30px;
-    border-radius: .2em;
+    border-radius: var(--border-radius);
+    margin-bottom: var(--margin) ;
     background-color: #808080;
-    margin: .5em;
-    max-width: 350px;
-    min-height: 500px;
+    width: var(--card-width);
+    height: var(--card-height);
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    width: 350px;
-    min-height: 250px;
+    width: var(--card-width);
+    height: var(--card-half-height);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background-color: #b77777;
-    margin: .5em;
     padding: 2em;
+    margin-bottom: var(--margin);
 `
 
 export const Title = styled.h3`

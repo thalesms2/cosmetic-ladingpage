@@ -1,19 +1,20 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    max-width: 350px;
-    min-height: 480px;
+    width: var(--card-width);
+    height: var(--card-half-width);
+    height: 50vh;
     display: flex;
     flex-direction: column;
-    margin: .5em;
+    margin-bottom: var(--margin);
     border-radius: .4em;
     background-color: #b3b421;
 `
 
 export const Image = styled.div`
     background-image: url("../assets/01.jpg");
-    max-width: 350px;
-    min-height: 250px;
+    width: var(--card-width);
+    height: var(--card-height);
     background-size: cover;
     border-radius: .4em .4em 0 0;
 `
