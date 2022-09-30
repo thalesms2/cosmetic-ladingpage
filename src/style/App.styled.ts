@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 11vw;
+    margin: 0 var(--app-margin);
 `;
 
 export const Header = styled.header`
