@@ -3,7 +3,7 @@ import React from 'react';
 import {
     Wrapper,
     Title,
-    Number,
+    Description,
     SubTitle
 } from '../style/StatisticsCard.styled'
 
@@ -12,7 +12,7 @@ const StatisticsCard: React.FC = () => {
     return (
         <Wrapper>
             <SubTitle>Mais de</SubTitle>
-            <Number>2100</Number>
+            <Description>2100</Description>
             <Title>Produtos criados</Title>
         </Wrapper>
     )

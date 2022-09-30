@@ -18,7 +18,7 @@ export const Title = styled.h3`
     padding: .5em 4em;
 `
 
-export const Number = styled.span`
+export const Description = styled.span`
     font-size: 3em;
     font-weight: bold;
     color: orange;
