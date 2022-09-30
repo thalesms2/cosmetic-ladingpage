@@ -11,7 +11,6 @@ interface ICardProps {
 }
 
 const Card: React.FC<ICardProps> = (props) => {
-
     return (
         <div>
             
