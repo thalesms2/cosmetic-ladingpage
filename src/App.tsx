@@ -7,6 +7,7 @@ import {
 	Header,
 	Menu,
 	Slider,
+    Slide,
 	Info,
 	Process,
 	Products,
@@ -40,10 +41,26 @@ const App: React.FC = () => {
 					onSlideChange={() => console.log('slide change')}
 					onSwiper={(swiper) => console.log(swiper)}
 				>
-					<SwiperSlide>Slide 1</SwiperSlide>
-					<SwiperSlide>Slide 2</SwiperSlide>
-					<SwiperSlide>Slide 3</SwiperSlide>
-					<SwiperSlide>Slide 4</SwiperSlide>
+					<SwiperSlide>
+                        <Slide>
+                            Slide 1
+                        </Slide>
+                    </SwiperSlide>
+					<SwiperSlide>
+                        <Slide>
+                            Slide 2
+                        </Slide>
+                    </SwiperSlide>
+					<SwiperSlide>
+                        <Slide>
+                            Slide 3
+                        </Slide>
+                    </SwiperSlide>
+					<SwiperSlide>
+                        <Slide>
+                            Slide 4
+                        </Slide>    
+                    </SwiperSlide>
 				</Swiper>
             </Slider>
             <Info>
@@ -71,7 +88,9 @@ const App: React.FC = () => {
             <Clients>
                 <Client />
             </Clients>
-            <Footer></Footer>
+            <Footer>
+                
+            </Footer>
         </Wrapper>
     );
 };

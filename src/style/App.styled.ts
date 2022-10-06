@@ -22,6 +22,12 @@ export const Menu = styled.nav`
 export const Slider = styled.section`
 
 `;
+
+export const Slide = styled.div`
+    height: 300px;
+    width: 100vw;
+    background-color: blue;
+`;
 export const Info = styled.section`
     display: flex;
     flex-direction: row;
